@@ -6,11 +6,20 @@
 
 ### 安装 Chrome 浏览器
 
-### Mac 电脑
+### 安装软件
+#### 下载对应平台的压缩包并解压到任意目录，举例 /Users/xxx/Downloads
+
+#### Mac 电脑 intel 芯片
    1. 打开“终端”应用
    2. 执行以下命令（复制粘贴后回车）：
 
-   xattr -rd com.apple.quarantine /Applications/douyin_gui.app
+   xattr -rd com.apple.quarantine /Users/xxx/Downloads/douyin_gui_mac_intel.app
+
+#### Mac 电脑 M系列芯片
+   1. 打开“终端”应用
+   2. 执行以下命令（复制粘贴后回车）：
+
+   xattr -r com.apple.quarantine /Users/xxx/Downloads/douyin_gui_mac.app
 
 ## 使用说明
 
