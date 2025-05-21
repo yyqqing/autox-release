@@ -1,77 +1,100 @@
+
 # 自媒体运营助手
 
-一个功能强大的自媒体运营工具，一键视频搬家、一键发布视频到多平台
+一个功能强大的自媒体运营工具，支持一键视频搬家、批量发布到多个平台。
 
-## 安装说明 
+---
 
-### 安装 Chrome 浏览器 <font color=red>【必要步骤】</font>
+## 📦 安装说明（必读）
 
-### Mac 电脑 <font color=red>【必要步骤】</font>
-   1. 打开“终端”应用
-   2. 执行以下命令（复制粘贴后回车）：
+### ✅ 安装 Chrome 浏览器（**必须**）
 
-   xattr -rd com.apple.quarantine /Applications/douyin_gui.app
+请确保系统已安装 Chrome 浏览器。软件依赖 Chrome 实现自动操作。
 
-## 使用说明
+### ✅ Mac 系统额外步骤（**必须**）
 
+🔹 对于 Intel 芯片的 Mac：
+打开“终端”应用
 
-#### 📝 发布前浏览器登录说明
-为了确保内容可以顺利发布到各个平台，请先在浏览器中登录目标平台账号，并保持登录状态。
+执行以下命令（请根据实际路径修改 xxx）：
 
-#### ✅ 首次使用时操作步骤：
-如果要发布的平台（如 YouTube、小红书等）尚未登录账号，程序将提示您进行登录。
+```bash
+xattr -rd com.apple.quarantine /Users/xxx/Downloads/douyin_gui_mac_intel.app
+```
 
-您可以点击程序页面中的 “打开浏览器” 按钮，系统会自动为您打开一个新的浏览器窗口。如下图所示：
-![打开浏览器](/assets/open_browser1.jpg)
-或
+🔹 对于 Apple M 系列芯片（M1/M2/M3）：
 
-![打开浏览器](/assets/open_browser2.jpg)
+打开“终端”应用
 
-在这个新打开的浏览器中，请访问对应平台（如 youtube.com、xiaohongshu.com）并登录您的账号。
+执行以下命令（请根据实际路径修改 xxx）：
 
-注意： 程序打开的浏览器是一个与您平时使用的浏览器隔离的进程（例如另一个独立的 Chrome 实例），它不会共享历史登录状态或插件。
+```bash
+xattr -r com.apple.quarantine /Users/xxx/Downloads/douyin_gui_mac.app
+```
 
-登录成功后，浏览器会自动保存您的登录状态。只要不长时间退出或清除缓存，程序在后续发布时无需重复登录。
+📝 说明：
+macOS 默认会对从网络下载的 .app 文件加上“隔离”标签，必须移除该标签，程序才能启动。执行上述命令后，即可双击运行应用。
 
-#### 📌 说明：
-每个平台都需要单独登录一次；
+---
 
-浏览器保持登录状态是确保发布成功的前提；
+## 🚀 软件使用指南
 
-如果发现登录失效，可重新点击“打开浏览器”按钮进行登录。
+### 🔷 主页功能概览
 
+> ![主页](/assets/主页.png)
 
+---
 
-### 主页功能说明
-![主页](/assets/主页.png)
+### 📥 抖音搬家功能
 
-#### 抖音搬家
+> ![抖音搬家](/assets/抖音搬家.png)
 
-![抖音搬家](/assets/抖音搬家.png)
+#### 🔐 发布平台登录说明
 
+使用前需确保浏览器已登录对应平台账号：
 
+- 首次使用或登录状态失效时，请点击界面中的“打开浏览器”按钮  
+- 在新打开的浏览器中登录对应平台（如 YouTube、小红书等）
+- 软件启动的浏览器进程独立于系统浏览器，您可能会看到一个新的 Chrome 窗口
+- 登录成功后，登录状态会保持有效，除非长时间未登录或平台手动登出
 
-##### 功能使用
-1、下载链接输入要搬家的抖音主页链接 ，<font color=red>【目前只支持输入用户主页链接，可输入多个地址，地址直接回车换行】</font>，如“https://www.douyin.com/user/MS4wLjABAAAAgfJrGAfliIV-_qU4wUWAMmyeTjhyjUqqESXwxrBQBYJosRs9O7-_2I_lWOvu_qrF?from_tab_name=main&vid=7484152559486160188”）
+> 示例：  
+> ![打开浏览器1](/assets/open_browser1.jpg)  
+> ![打开浏览器2](/assets/open_browser2.jpg)
 
-2、选择作品发布的时间段
+#### 📌 操作步骤
 
-3、设置 cookie （如何获取 cookie ?）
+1. **输入抖音主页链接：**  
+   - 支持输入多个链接，回车换行分隔  
+   - 例如：  
+     ```
+     https://www.douyin.com/user/MS4wLjABAAAAgfJrGAfliIV...
+     ```
 
-可以参考文档
-[利用插件获取网页 cookie ](./cookie-helper/README.md).
- 也可以参考以下步骤：
-![获取 cookie](/assets/cookie1.png)
-![获取 cookie](/assets/cookie2.png)
-![获取 cookie](/assets/cookie3.png)
-![获取 cookie](/assets/cookie4.png)
+2. **选择发布时间段：**  
+   - 设置视频发布的时间范围
 
-4、发布
+3. **设置 Cookie（用于登录验证）：**  
+   - 参考图示步骤获取浏览器 Cookie  
+   ![cookie1](/assets/cookie1.png)  
+   ![cookie2](/assets/cookie2.png)  
+   ![cookie3](/assets/cookie3.png)  
+   ![cookie4](/assets/cookie4.png)
 
-#### 多平台发布
-![多平台发布](/assets/多平台发布.png)
+4. **点击发布按钮，开始搬家操作**
 
+---
 
+### 🌐 多平台视频发布
 
+> ![多平台发布](/assets/多平台发布.png)
 
+#### 🔐 登录状态说明（同抖音搬家一致）
 
+- 每个平台发布前，请确保浏览器中已登录账号  
+- 可点击“打开浏览器”进入登录界面，平台如：YouTube、小红书、哔哩哔哩等  
+- 程序会打开一个新的独立 Chrome 窗口用于自动化登录与发布
+
+---
+
+如需进一步帮助，请联系技术支持或查看更多使用手册。
