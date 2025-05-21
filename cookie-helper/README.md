@@ -3,7 +3,7 @@
 
 ✅ 第一步：下载插件压缩包
 
-👉 点击下载插件  [cookie-helper.zip ]([https://markdown.com.cn](https://github.com/spider-ios/autox-release/releases/download/v1.0/cookie-helper.zip) "一键获取 cookie")。
+👉 点击下载插件  [cookie-helper.zip ](https://github.com/spider-ios/autox-release/releases/download/v1.0/cookie-helper.zip) "一键获取 cookie")。
 
 ✅ 第二步：解压插件
 找到刚下载的 cookie-helper.zip 文件
