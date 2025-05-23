@@ -112,7 +112,7 @@ macOS 默认会对从网络下载的 .app 文件加上“隔离”标签，必�
 3. **设置 cookie （如何获取 cookie ?）**
 
 可以参考文档
-[利用插件获取网页 cookie ](./cookie-helper/README.html).
+[利用插件获取网页 cookie ](./cookie-helper/README.md).
 
  也可以参考以下步骤：
 ![获取 cookie](/assets/cookie1.png)
