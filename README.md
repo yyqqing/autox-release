@@ -140,9 +140,11 @@ macOS 默认会对从网络下载的 .app 文件加上“隔离”标签，必�
 如需进一步帮助，请提 issue!
 
 欢迎入群交流！
+<p align = "center">    
+<img  src="https://github.com/user-attachments/assets/a0b1ee9e-99c4-429b-9c18-046017157d72" width="300" />
+</p>
 
 
-![image](https://github.com/user-attachments/assets/a0b1ee9e-99c4-429b-9c18-046017157d72)
 
 
 
