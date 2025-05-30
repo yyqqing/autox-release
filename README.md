@@ -151,7 +151,7 @@ macOS 默认会对从网络下载的 .app 文件加上“隔离”标签，必�
 
 欢迎入群交流！
 <p align = "center">    
-<img  src="/assets/main.png" width="400" />
+<img  src="/assets/qrcode.jpg" width="400" />
 </p>
 
 
