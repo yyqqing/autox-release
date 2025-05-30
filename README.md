@@ -48,7 +48,7 @@ xattr -rd com.apple.quarantine /Users/xxx/Downloads/AutoX.app
 执行以下命令（请根据实际路径修改）：
 
 ```bash
-xattr -r com.apple.quarantine /Users/xxx/Downloads/AutoX.app
+xattr -d com.apple.quarantine /Users/xxx/Downloads/AutoX.app
 ```
 
 📝 说明：
