@@ -12,6 +12,9 @@
 
 请确保系统已安装 Chrome 浏览器。软件依赖 Chrome 实现自动操作。
 
+✅ [Chrome 下载地址](https://www.google.cn/chrome/)
+
+
 ### ✅ Windows 系统
 
 下载 douyin_gui_v1.1.0_win.zip 并解压到任意目录，双击执行目录里的 douyin_gui.exe
