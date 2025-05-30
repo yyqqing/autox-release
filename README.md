@@ -1,12 +1,17 @@
 # 自媒体运营助手
 
 一个功能强大的自媒体运营工具，一键视频搬家、一键发布视频到多平台,抖音视频下载，一键搬家到其他平台（快手、YouTube、小红书、美拍、哔哩哔哩等）
+欢迎入群交流！
+<p align = "center">    
+<img  src="/assets/qrcode.jpg" width="400" />
+</p>
+
 
 ## 📦 安装说明（必读）
 
 ## 下载地址
 
-✅ [下载地址](https://github.com/spider-ios/autox-release/releases/tag/v1.1.2)
+✅ [下载地址](https://github.com/spider-ios/autox-release/releases/tag/v1.2.0)
 
 ### ✅ 安装 Chrome 浏览器（**必须**）
 
@@ -17,27 +22,33 @@
 
 ### ✅ Windows 系统
 
-下载 douyin_gui_v1.1.0_win.zip 并解压到任意目录，双击执行目录里的 douyin_gui.exe
+📌 **下载 [AutoX_windows.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.2.0)** 
+
+并解压到任意目录，双击执行目录里的 AutoX.exe
 
 ### ✅ Mac 系统额外步骤（**必须**）
-下载对应的安装包如： douyin_gui_v1.1.0_mac_intel.zip，并解压到任意目录
-🔹 对于 Intel 芯片的 Mac：
+下载对应的安装包，并解压到任意目录
+#### 🔹 对于 Intel 芯片的 Mac：
+📌 **下载 [AutoX_Mac_Intel.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.2.0)** 
+
 打开“终端”应用
 
 执行以下命令（请根据实际路径修改）：
 
 ```bash
-xattr -rd com.apple.quarantine /Users/xxx/Downloads/douyin_gui_mac_intel.app
+xattr -rd com.apple.quarantine /Users/xxx/Downloads/AutoX.app
 ```
 
-🔹 对于 Apple M 系列芯片（M1/M2/M3）：
+#### 🔹 对于 Apple M 系列芯片（M1/M2/M3）：
+
+📌 **下载 [AutoX_Mac.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.2.0)** 
 
 打开“终端”应用
 
 执行以下命令（请根据实际路径修改）：
 
 ```bash
-xattr -r com.apple.quarantine /Users/xxx/Downloads/douyin_gui_mac.app
+xattr -r com.apple.quarantine /Users/xxx/Downloads/AutoX.app
 ```
 
 📝 说明：
@@ -58,20 +69,18 @@ macOS 默认会对从网络下载的 .app 文件加上“隔离”标签，必�
 #### 📝 发布平台账号管理
 
 > ![主页](/assets/account.png)
-> 系统默认使用端口号 8633，一般情况下不需要手动设置。单账号：如果一个平台只操作一个账号，无需更改端口。多账号：如果你在同一平台登录多个账号，需要为每个账号设置不同的端口,为了确保内容可以顺利发布到各个平台，输入端口号后点击后面的打开浏览器，在浏览器中登录目标平台账号，并保持登录状态。
+> 系统默认使用端口号 8633，一般情况下不需要手动设置。单账号：如果一个平台只操作一个账号，这里无需添加账号。多账号：如果你在同一平台登录多个账号，需要为每个账号设置不同的端口,为了确保内容可以顺利发布到各个平台。
 
-#### ✅ 首次使用时操作步骤：
-如果要发布的平台（如 YouTube、小红书等）尚未登录账号，程序将提示您进行登录。
+#### ✅ 自媒体平台登录状态：
 
-您可以点击程序页面中的 “打开浏览器” 按钮，系统会自动为您打开一个新的浏览器窗口。如下图所示：
-![打开浏览器](/assets/open_browser1.jpg)
-或
+工具不会维护和获取您的账号信息，所有的登录状态依靠浏览器本身的状态管理，登录之后，浏览器会自动保存登录状态，长期不登录或不访问页面，登录状态会失效，所以建议发布前检查登录状态。
 
-![打开浏览器](/assets/open_browser2.jpg)
+您可以点击程序页面中的 “检查登录状态” 按钮，系统会自动根据勾选的平台和账号为您打开一个或多个新的浏览器窗口，并打开对应的平台页面，您只需要检查每个平台是不是登录状态，如果不是，请重新登录。如下图所示：
 
-在这个新打开的浏览器中，请访问对应平台（如 youtube.com、xiaohongshu.com）并登录您的账号。
+![打开浏览器](/assets/check_status.jpg)
 
-注意： 程序打开的浏览器是一个与您平时使用的浏览器隔离的进程（例如另一个独立的 Chrome 实例），它不会共享历史登录状态或插件。
+
+注意： 程序打开的浏览器是一个与您平时使用的浏览器隔离的进程（例如另一个独立的 Chrome 实例），它不会共享历史登录状态。
 
 登录成功后，浏览器会自动保存您的登录状态。只要不长时间退出或清除缓存，程序在后续发布时无需重复登录。
 
@@ -79,10 +88,6 @@ macOS 默认会对从网络下载的 .app 文件加上“隔离”标签，必�
 每个平台都需要单独登录一次；
 
 浏览器保持登录状态是确保发布成功的前提；
-
-如果发现登录失效，可重新点击“打开浏览器”按钮进行登录。
-
-
 
 
 ### 📥 抖音搬家功能
@@ -93,14 +98,13 @@ macOS 默认会对从网络下载的 .app 文件加上“隔离”标签，必�
 
 使用前需确保浏览器已登录对应平台账号：
 
-- 首次使用或登录状态失效时，请点击界面中的“打开浏览器”按钮  
+- 首次使用或登录状态失效时，请点击界面中的“检查登录状态”按钮  
 - 在新打开的浏览器中登录对应平台（如 YouTube、小红书等）
 - 软件启动的浏览器进程独立于系统浏览器，您可能会看到一个新的 Chrome 窗口
 - 登录成功后，登录状态会保持有效，除非长时间未登录或平台手动登出
 
 > 示例：  
-> ![打开浏览器1](/assets/open_browser1.jpg)  
-> ![打开浏览器2](/assets/open_browser2.jpg)
+> ![检查登录状态](/assets/check_status.jpg)  
 
 #### 📌 操作步骤
 
@@ -112,7 +116,10 @@ macOS 默认会对从网络下载的 .app 文件加上“隔离”标签，必�
 
 2. **选择作品发布的时间段**
 
-3. **设置 cookie （如何获取 cookie ?）**
+3. **静默发布**
+  选择静默发布，发布时不会启动浏览器  
+
+4. **设置 cookie （如何获取 cookie ?）**
 
 可以参考文档
 [利用插件获取网页 cookie ](./cookie-helper/README.md).
@@ -144,7 +151,7 @@ macOS 默认会对从网络下载的 .app 文件加上“隔离”标签，必�
 
 欢迎入群交流！
 <p align = "center">    
-<img  src="https://github.com/user-attachments/assets/a0b1ee9e-99c4-429b-9c18-046017157d72" width="300" />
+<img  src="/assets/main.png" width="400" />
 </p>
 
 
