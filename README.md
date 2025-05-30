@@ -3,7 +3,7 @@
 一个功能强大的自媒体运营工具，一键视频搬家、一键发布视频到多平台,抖音视频下载，一键搬家到其他平台（快手、YouTube、小红书、美拍、哔哩哔哩等）
 欢迎入群交流！
 <p align = "center">    
-<img  src="https://github.com/user-attachments/assets/a0b1ee9e-99c4-429b-9c18-046017157d72" width="300" />
+<img  src="/assets/qrcode.jpg" width="400" />
 </p>
 
 
@@ -151,7 +151,7 @@ macOS 默认会对从网络下载的 .app 文件加上“隔离”标签，必�
 
 欢迎入群交流！
 <p align = "center">    
-<img  src="https://github.com/user-attachments/assets/a0b1ee9e-99c4-429b-9c18-046017157d72" width="300" />
+<img  src="/assets/main.png" width="400" />
 </p>
 
 
