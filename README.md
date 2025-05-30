@@ -1,12 +1,17 @@
 # 自媒体运营助手
 
 一个功能强大的自媒体运营工具，一键视频搬家、一键发布视频到多平台,抖音视频下载，一键搬家到其他平台（快手、YouTube、小红书、美拍、哔哩哔哩等）
+欢迎入群交流！
+<p align = "center">    
+<img  src="https://github.com/user-attachments/assets/a0b1ee9e-99c4-429b-9c18-046017157d72" width="300" />
+</p>
+
 
 ## 📦 安装说明（必读）
 
 ## 下载地址
 
-✅ [下载地址](https://github.com/spider-ios/autox-release/releases/tag/v1.1.2)
+✅ [下载地址](https://github.com/spider-ios/autox-release/releases/tag/v1.2.0)
 
 ### ✅ 安装 Chrome 浏览器（**必须**）
 
@@ -17,27 +22,33 @@
 
 ### ✅ Windows 系统
 
-下载 douyin_gui_v1.1.0_win.zip 并解压到任意目录，双击执行目录里的 douyin_gui.exe
+📌 **下载 [AutoX_windows.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.2.0)** 
+
+并解压到任意目录，双击执行目录里的 AutoX.exe
 
 ### ✅ Mac 系统额外步骤（**必须**）
-下载对应的安装包如： douyin_gui_v1.1.0_mac_intel.zip，并解压到任意目录
-🔹 对于 Intel 芯片的 Mac：
+下载对应的安装包，并解压到任意目录
+#### 🔹 对于 Intel 芯片的 Mac：
+📌 **下载 [AutoX_Mac_Intel.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.2.0)** 
+
 打开“终端”应用
 
 执行以下命令（请根据实际路径修改）：
 
 ```bash
-xattr -rd com.apple.quarantine /Users/xxx/Downloads/douyin_gui_mac_intel.app
+xattr -rd com.apple.quarantine /Users/xxx/Downloads/AutoX.app
 ```
 
-🔹 对于 Apple M 系列芯片（M1/M2/M3）：
+#### 🔹 对于 Apple M 系列芯片（M1/M2/M3）：
+
+📌 **下载 [AutoX_Mac.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.2.0)** 
 
 打开“终端”应用
 
 执行以下命令（请根据实际路径修改）：
 
 ```bash
-xattr -r com.apple.quarantine /Users/xxx/Downloads/douyin_gui_mac.app
+xattr -r com.apple.quarantine /Users/xxx/Downloads/AutoX.app
 ```
 
 📝 说明：
