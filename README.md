@@ -11,7 +11,7 @@
 
 ## 下载地址
 
-✅ [下载地址](https://github.com/spider-ios/autox-release/releases/tag/v1.3.0)
+✅ [下载地址](https://github.com/spider-ios/autox-release/releases/tag/v1.3)
 
 ### ✅ 安装 Chrome 浏览器（**必须**）
 
@@ -22,14 +22,14 @@
 
 ### ✅ Windows 系统
 
-📌 **下载 [AutoX_windows.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.3.0)** 
+📌 **下载 [AutoX_windows.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.3)** 
 
 并解压到任意目录，双击执行目录里的 AutoX.exe
 
 ### ✅ Mac 系统额外步骤（**必须**）
 下载对应的安装包，并解压到任意目录
 #### 🔹 对于 Intel 芯片的 Mac：
-📌 **下载 [AutoX_Mac_Intel.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.3.0)** 
+📌 **下载 [AutoX_Mac_Intel.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.3)** 
 
 打开"终端"应用
 
@@ -41,7 +41,7 @@ xattr -rd com.apple.quarantine /Users/xxx/Downloads/AutoX.app
 
 #### 🔹 对于 Apple M 系列芯片（M1/M2/M3）：
 
-📌 **下载 [AutoX_Mac.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.3.0)** 
+📌 **下载 [AutoX_Mac.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.3)** 
 
 打开"终端"应用
 
