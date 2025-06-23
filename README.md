@@ -2,9 +2,6 @@
 
 一个功能强大的自媒体运营工具，一键视频搬家、一键发布视频到多平台,抖音视频下载，一键搬家到其他平台（快手、YouTube、小红书、美拍、哔哩哔哩等）
 欢迎入群交流！
-<p align = "center">    
-<img  src="/assets/qrcode.jpg" width="400" />
-</p>
 
 <p align = "center">    
 <img  src="/assets/qrcode2.jpg" width="400" />
@@ -369,7 +366,7 @@ B站平台：
 
 欢迎入群交流！
 <p align = "center">    
-<img  src="/assets/qrcode.jpg" width="400" />
+<img  src="/assets/qrcode2.jpg" width="400" />
 </p>
 
 
