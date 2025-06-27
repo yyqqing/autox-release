@@ -90,12 +90,14 @@
 ##### 2.更新 Homebrew 并安装 FFmpeg：
 
 ```bash
+
 brew update
 brew install ffmpeg
 
 ##### 3.验证安装 ：
 
 ```bash
+
 ffmpeg -version
 
 
