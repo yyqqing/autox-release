@@ -29,37 +29,20 @@
 
 ### ✅ Windows 系统
 
-📌 **下载 [AutoX_windows.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.3)** 
+📌 **下载 [AutoX_windows.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.3.2)** 
 
 并解压到任意目录，双击执行目录里的 AutoX.exe
 
 ### ✅ Mac 系统额外步骤（**必须**）
 下载对应的安装包，并解压到任意目录
 #### 🔹 对于 Intel 芯片的 Mac：
-📌 **下载 [AutoX_Mac_Intel.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.3)** 
+📌 **下载 [AutoX_Mac_Intel.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.3.2)** 
 
-打开"终端"应用
 
-执行以下命令（请根据实际路径修改）：
-
-```bash
-xattr -rd com.apple.quarantine /Users/xxx/Downloads/AutoX.app
-```
 
 #### 🔹 对于 Apple M 系列芯片（M1/M2/M3）：
 
-📌 **下载 [AutoX_Mac.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.3)** 
-
-打开"终端"应用
-
-执行以下命令（请根据实际路径修改）：
-
-```bash
-xattr -d com.apple.quarantine /Users/xxx/Downloads/AutoX.app
-```
-
-📝 说明：
-macOS 默认会对从网络下载的 .app 文件加上"隔离"标签，必须移除该标签，程序才能启动。执行上述命令后，即可双击运行应用。
+📌 **下载 [AutoX_Mac.zip](https://github.com/spider-ios/autox-release/releases/tag/v1.3.2)** 
 
 ---
 
