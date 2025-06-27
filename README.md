@@ -75,30 +75,14 @@
    打开命令提示符（Win + R → 输入 `cmd`），执行命令：
 
    ```bash
+   
    ffmpeg -version
 
 ### 🪟 Mac 安装步骤
 
 #### ✅ 方法一：使用 Homebrew 安装（推荐）
 
-##### 1. 安装 Homebrew（如尚未安装）：
 
-```bash
-
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-##### 2.更新 Homebrew 并安装 FFmpeg：
-
-```bash
-
-brew update
-brew install ffmpeg
-
-##### 3.验证安装 ：
-
-```bash
-
-ffmpeg -version
 
 
 
