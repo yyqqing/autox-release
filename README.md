@@ -54,7 +54,7 @@
 
 ### 🪟 Windows 安装步骤
 
-#### ✅ 方法一：使用预编译包（推荐）
+#### ✅ 使用预编译包（推荐）
 
 1. 打开官网预编译版本页面：  
    👉 [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
@@ -80,9 +80,28 @@
 
 ### 🪟 Mac 安装步骤
 
-#### ✅ 方法一：使用 Homebrew 安装（推荐）
+#### ✅ 使用 Homebrew 安装（推荐）
 
+1. 安装 Homebrew（如尚未安装）：
 
+   ```bash
+   
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
+   
+2.更新 Homebrew 并安装 FFmpeg：
+   
+   ```bash
+   
+   brew update
+   brew install ffmpeg
+   ```
+
+3.验证安装 ：
+   
+   ```bash
+   
+   ffmpeg -version
+   ```
 
 
 
