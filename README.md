@@ -18,7 +18,7 @@
 
 ## 下载地址
 
-✅ [下载地址](https://github.com/spider-ios/autox-release/releases/tag/v1.3)
+✅ [下载地址](https://github.com/spider-ios/autox-release/releases/tag/v1.3.2)
 
 ### ✅ 安装 Chrome 浏览器（**必须**）
 
