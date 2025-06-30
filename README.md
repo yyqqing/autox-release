@@ -5,7 +5,7 @@
 
 
 <p align = "center">    
-<img  src="/assets/qrcode.jpg" width="400" />
+<img  src="/assets/qrcode.jpg?0701" width="400" />
 </p>
 
 [点击观看视频](https://www.bilibili.com/video/BV1q9MMzoEpT/?buvid=Y248D0254BD57B4E4B1EBF41FD89855D7692)
@@ -409,7 +409,7 @@ B站平台：
 
 欢迎入群交流！
 <p align = "center">    
-<img  src="/assets/qrcode2.jpg" width="400" />
+<img  src="/assets/qrcode.jpg" width="400" />
 </p>
 
 
